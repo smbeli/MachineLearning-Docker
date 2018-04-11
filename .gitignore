@@ -1,4 +1,8 @@
 # Byte-compiled / optimized / DLL files
+# devdocker
+devdocker/*.sh
+devdocker/*.gz
+devdocker/*.rpm
 __pycache__/
 *.py[cod]
 *$py.class
