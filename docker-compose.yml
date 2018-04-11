@@ -1,0 +1,12 @@
+version: '2'
+services:
+    devdocker:
+        restart: always
+        build: ./devdocker
+        container_name: mechinelearning
+        ports:
+            - "18022:22"
+            - "8081:8080"
+        volumes:
+            - ./:/workspace
+   
