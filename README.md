@@ -31,4 +31,5 @@ docker-compose up -d 重新启动就可以了
 
 ### 已安装环境及工具
 * Anaconda3
+* ssh
 * tmux
